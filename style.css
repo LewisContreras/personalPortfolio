@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header{
+    background-color: rgb(173, 81, 81);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    align-items: center;
+}
+#navbar a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(235, 230, 230);
+    margin: 0 20px;
+}
+
+/* WELCOME SECTION */
+
+#welcome-section{
+    background-color: rgb(26, 24, 24);
+    height: 100vh;
+    color: rgb(235, 230, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#welcome-section h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#welcome-section p{
+    color: rgb(173, 81, 81);
+    font-size: 2em
+}
+
+/* PROJECTS SECTION */
+
+#projects{
+    background-color: rgb(78, 44, 110);
+}
+
+#projects h2{
+    color: rgb(235, 230, 230);
+    display: block;
+    padding: 40px;
+    text-align: center;
+}
+
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.single-project{
+    width: 40vw;
+    background-color: rgb(44, 13, 73);
+    height: 50vh;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    
+}
+
+.img-container{
+    background-color: darkgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 85%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tribute-page{
+    background-image: url("tribute-page.png");
+}
+
+.landing-page{
+    background-image: url("landing-page.png");
+}
+
+.survey-form{
+    background-image: url("survey-form.png");
+}
+
+.technical-documentation{
+    background-image: url("technical-documentation.png");
+}
+
+.project-title{
+    color: rgb(235, 230, 230);
+    display: flex;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CONTACT SECTION */
+
+#contact{
+    background-color: rgb(43, 39, 39);
+    color: rgb(235, 230, 230);
+    height: 100vh;
+    
+}
+
+.contact-container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact p{
+    font-size: 3em;
+}
+
+#contact a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+    padding: 20px 0;
+}
+
+#footer{
+    border-top: 5px solid rgb(173, 81, 81);
+    height: 20vh;
+    padding: 0 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#footer p{
+    font-size: 1.5em;
+}
+
+@media (max-width:768px){
+    footer{
+        color: white;
+    }
+}
